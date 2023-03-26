@@ -2,6 +2,12 @@
   let current = "";
 </script>
 
+<style>
+  button:hover {
+    background-color: darkorchid;
+  }
+</style>
+
 <!-- We will cover buttons later on! -->
 <button class="btn btn-secondary" on:click={() => (current = "messi")}>
   Messi
